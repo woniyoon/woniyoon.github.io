@@ -13,6 +13,9 @@ author:
   url:          https://woniyoon.github.io
   email:        woniyoon@gmail.com
 
+# Add Categories
+category_list: [ java, javascript, journal ]
+
 # Build settings
 markdown:       kramdown
 include:
