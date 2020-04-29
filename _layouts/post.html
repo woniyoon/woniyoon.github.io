@@ -35,5 +35,7 @@ layout: default
     <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
   {% endif %}
 
+  {% if page.title != "About"  %}
   <a href="#" class="top">Top</a>
+  {% endif %}
 </div>
