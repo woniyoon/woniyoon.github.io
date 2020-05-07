@@ -55,4 +55,4 @@ categories: [ javascript ]
 
 _________________
 
-reference source : [https://stackoverflow.com/questions/3434278/do-dom-tree-elements-with-ids-become-global-variables/3434388#3434388](https://stackoverflow.com/questions/3434278/do-dom-tree-elements-with-ids-become-global-variables/3434388#3434388) 
+reference source : [Do DOM tree elements with ids become global variables?](https://stackoverflow.com/questions/3434278/do-dom-tree-elements-with-ids-become-global-variables/3434388#3434388) 
