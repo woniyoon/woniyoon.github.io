@@ -14,7 +14,7 @@ author:
   email:        woniyoon@gmail.com
 
 # Add Categories
-category_list: [ git, javascript, journal, til ]
+category_list: [ til, journal, git, javascript ]
 
 # Build settings
 markdown:       kramdown
