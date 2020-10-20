@@ -37,6 +37,34 @@ categories: [ react ]
 ```
 - Form 태그 안에 input 사용시, 1. value와 onChange를 같이 사용 2. defaultValue 속성을 사용해줘야 에러메시지 안 나옴
 
+- require : node의 모듈 시스템, import...from 문법과 호환됨
+- export시 default로 했으면 import (default 이름)
+- export시 변수를 이용했으면 구조분해 문법을 사용해야함 
+- react에서는 import&export 사용, node에서는 require사용
+
+```javascript
+    import React from "react";
+    import { Component } from "react";
+
+    // export default React;
+    // export const Component = ... ;
+
+    
+    // react 문법
+    export const hello = "hello";   // import { hello }
+    export const bye = "hello";     // import { hello, bye }
+
+    export default NumberBaseball;  // import Numberbaseball
+
+    // 위 아래는 서로 호환이 되나, 엄밀히 따지면 완전 똑같지는 않음
+    // babel이 코드를 변환해주기 때문에 혼용가능
+
+    // node 문법
+    const React = require("react");
+    exports.hello = "hello";
+    module.exports = NumberBaseball;
+```
+
 
 <br>
 
