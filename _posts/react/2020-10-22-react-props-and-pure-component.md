@@ -1,5 +1,3 @@
-
-
 ---
 layout: post
 title:  "React props and pureComponent"
