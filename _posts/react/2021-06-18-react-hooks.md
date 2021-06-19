@@ -19,6 +19,8 @@ categories: [ react ]
 - useImperativeHandle
 - useLayoutEffect
 
+<hr>
+
 <br>
 ### Custom Hooks 
 
@@ -156,7 +158,21 @@ export default ParentComponent
 ### useRef
 - 돔이나 자식 컴포넌트의 prop값들에 접근할 때 사용?
 
+<br/>
 
+### useLayoutEffect
+- useEffect와 거의 동일
+- useEffect: 화면에 DOM이 그려진 이후에 호출 
+- useLayoutEffect: 화면에 DOM이 그려지기 전에 호출
+- useEffect가 더 빠르게 화면에 그려짐
+- ex) 요소 그려냄 -> useEffect 내부에서 state를 업데이트하는 함수 호출 -> 재랜더링을 하는 과정에서 생길 수 있는 사용자 경험을 방지하기 위해 useLayoutEffect 사용
+- 'use this to read the layout from the DOM and synchronously re-render'이 무슨 뜻인지 잘 이해가 안 되서 한글 포스트도 검색해봤다....
+
+<br/>
+
+### Custom Hooks
+- 중복되는 로직을 따로 분리 및 커스텀 훅으로 만들어서 사용할 수 있음
+- use 접두어를 꼭 써줘야 함
 
 _________________
 
